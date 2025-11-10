@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>65.0</apiVersion>
+    <description>A simple GDS footer that can be used at the bottom of a community page.</description>
+    <isExposed>true</isExposed>
+    <masterLabel>Gov UK Footer Rebrand</masterLabel>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="metalinksRequired" type="Boolean" label="Enable Footer with links to Meta information" description="Check the checkbox if you want footer with links as meta information and fill below 2 fields."/>
+            <property name="crownLogoRequired" type="Boolean" label="Enable Footer with Crown Logo" description="Check the checkbox if you want footer with Crown Logo"/>
+            <property name="metalinkNames" type="String" label="Meta Information Link Names" description="Please provide semicolon list of the display names to the links"/>
+            <property name="metalinkURL" type="String" label="Meta Information Link URL's" description="Please provide semicolon list of the links in same order corresponding to the above mentioned names"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

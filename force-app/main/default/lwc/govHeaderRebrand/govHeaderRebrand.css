@@ -1,0 +1,118 @@
+/*
+.govuk-header__menu-button {
+    display: block;
+}
+
+.govuk-header__navigation {
+    display: none;
+}
+
+.govuk-header__navigation--open {
+    display: block;
+}
+
+@media (min-width: 48.0625em) {
+    .govuk-header__menu-button {
+        display: none;
+    }
+    .govuk-header__navigation {
+        display: block;
+    }
+}
+*/
+
+/* rebrand */
+
+.govuk-header {
+    border-bottom: 1px solid transparent;
+    background: #1d70b8;
+    font-family: GDS Transport, arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: .875rem;
+    line-height: 1;
+    color: #fff;
+}
+
+.govuk-header__container {
+    margin-bottom: 0;
+   /* padding-top: 10px; */
+    padding-top: 15px;
+   /*  padding-bottom: 10px; */
+    padding-bottom: 5px;
+    border-bottom: none;
+    position: relative;
+}
+
+
+.govuk-header__content{
+    display: flex;
+    align-items: center;
+  /*  justify-content: center; */
+}
+
+/*try this */
+.govuk-header__link--homepage {
+
+    line-height:1.15;
+}
+
+
+/*
+.govuk-header__link {
+    margin-right: 10px;
+    font-size: 30px;
+    line-height:1.15;
+}
+
+.govuk-header__link--homepage {
+    margin-right: 10px;
+    font-size: 30px;
+    line-height:1.15;
+}
+
+.govuk-header__link--service-name{
+
+    font-size: 30px; 
+}
+*/
+
+
+
+/* 
+--------------------------------------------
+cabs title - unable to vert align middle 
+logo - unable to change link thickness
+--------------------------------------------
+*/
+
+.govuk-header__logo {
+    margin-top : -5px
+}
+
+
+.govuk-header__link {
+   /* margin-right: 10px;
+    line-height:1.15; */
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+
+
+.govuk-header__logotype {
+    display: inline-block;
+    position: relative;
+    fill: #fff;
+    vertical-align: middle;
+}
+
+.govuk-logo-dot {
+    fill: #00ffe0;
+}
+
+
+.govuk-header__link:link, .govuk-header__link:visited {
+    text-underline-offset: 5px;
+}
